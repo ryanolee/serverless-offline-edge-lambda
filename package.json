@@ -22,12 +22,6 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "npm run lint && npm test"
-    }
-  },
   "contributors": [
     "Matt Strom <matt@mattstrom.com>"
   ],
