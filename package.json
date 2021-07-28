@@ -1,6 +1,6 @@
 {
-  "name": "serverless-offline-edge-lambda",
-  "version": "1.0.2",
+  "name": "@ryanolee/serverless-offline-edge-lambda",
+  "version": "1.0.3",
   "description": "A plugin for the Serverless Framework that simulates the behavior of AWS CloudFront Edge Lambdas while developing offline.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -12,7 +12,6 @@
     "watch": "tsc -w",
     "test": "snyk test && echo \"No test specified\"",
     "lint": "tslint --project tsconfig.json",
-    "commit": "git-cz",
     "release": "semantic-release --no-ci",
     "release:dry-run": "semantic-release --no-ci --dry-run",
     "snyk-protect": "snyk protect",

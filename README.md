@@ -1,5 +1,9 @@
 serverless-offline-edge-lambda
 =================================
+NOTE: Package bumped with latest changes from master given v1.0.2 seems to be broken.
+This release is not supported and it is recommended to use https://github.com/evolv-ai/serverless-offline-edge-lambda once a new update has properly been released
+
+
 A plugin for the [Serverless Framework](https://serverless.com/framework/) that simulates
 the behavior of AWS CloudFront Edge Lambdas while developing offline.
 
@@ -7,7 +11,7 @@ the behavior of AWS CloudFront Edge Lambdas while developing offline.
 
 ```bash
 npm install --save-dev serverless
-npm install --save-dev serverless-offline-edge-lambda
+npm install --save-dev @ryanolee/serverless-offline-edge-lambda
 ```
 
 _serverless.yml_
@@ -16,7 +20,7 @@ service:
   name: edge-lambdas
   
 plugins:
-  - serverless-offline-edge-lambda
+  - '@ryanolee/serverless-offline-edge-lambda'
 
 provider:
   name: aws
